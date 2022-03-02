@@ -19,6 +19,7 @@ public class EmployeeMainApp {
 //		employee.setEmpName("Aman Singh");
 //		employee.setEmpAddress("Shivaji Nagar");
 //		employee.setEmpSalary(50000);
+		
 		em.getTransaction().begin();
 		em.persist(employee);
 		em.getTransaction().commit();

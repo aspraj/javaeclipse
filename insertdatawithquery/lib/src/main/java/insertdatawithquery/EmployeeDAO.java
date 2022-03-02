@@ -5,7 +5,8 @@ import java.util.List;
 public interface EmployeeDAO {
 
 
-	List<Employee> getAllEmployee();
+	public List<Employee> getAllEmployee();
 
-	Employee getEmployeeByName(String empName);
+	public Employee getEmployeeByName(String empName);
+
 }
